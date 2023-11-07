@@ -12,6 +12,7 @@ html,body{
 #main{
     position: relative;
     overflow: hidden;
+    background-color: #1137ca;
 }
 
 #page1{
@@ -125,5 +126,145 @@ html,body{
     position: relative;
     height: 100vh;
     width: 100vw;
-   
+}
+#page3>canvas{
+    max-height: 100vh;
+    max-width: 100vw;
+    position: relative;
+}
+
+#page4{
+    height: 100vh;
+    width: 100vw;
+    padding: 0px 10vw;
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0a3cce;
+}
+
+#page4>h3{
+    margin-bottom: 7vh;
+    font-weight: 100;
+    color: #fff;
+}
+
+#page4>h1{
+    width: 90%;
+    font-size: 8vh;
+    line-height: 1.3;
+    font-weight: 100;
+    color: #dadada69; 
+}
+
+#page5{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+#page5>canvas{
+    max-height: 100vh;
+    max-width: 100vw;
+    position: relative;
+}
+
+
+#page6{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    padding: 0px 10vw;
+    background-color: #0a3cce;
+}
+
+#page6>h3{
+    margin-bottom: 7vh;
+    font-weight: 100;
+    color: #fff;
+}
+
+#page6>h1{
+    width: 90%;
+    font-size: 8vh;
+    line-height: 1.3;
+    font-weight: 100;
+    color: #dadada69; 
+}
+
+#page7{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0a3cce;
+}
+
+#page7>canvas{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.page7-cir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9;
+    height: 30vw;
+    width: 30vw;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.page7-cir-inner{
+    height: 70%;
+    width: 70%;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+
+#page8{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0a3cce;
+}
+
+#page8>video{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.page8-bottom{
+    position: absolute;
+    bottom: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.page8-bottom>h1{
+    font-size: 5vw;
+    font-weight: 100;
+    color: #fff;
+}
+
+.page8-bottom>button{
+    margin-top: 20px;
+    padding: 13px 25px;
+    border-radius: 50px;
+    border: none;
+    color: #0a3cce;
 }
