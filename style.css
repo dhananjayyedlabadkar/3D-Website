@@ -17,7 +17,7 @@ html,body{
 #page1{
     height: 100vh;
     width: 100vw;
-    background-color: red;
+    /* background-color: red; */
     position: relative;
 }
 
@@ -43,6 +43,7 @@ html,body{
 }
 
 #right-nav>button{
+    margin-right: 10px;
     padding: 10px 20px;
     border-radius: 50px;
     border: 1px solid #fff;
@@ -92,4 +93,38 @@ html,body{
      color: #0940DD;
      background-color: #fcfcfc;
      border: none;
+}
+
+#page2{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    padding: 0px 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0a3cce;
+   
+}
+
+#page2>h3{
+    margin-bottom: 7vh;
+    font-weight: 100;
+    color: #fff;
+}
+
+#page2>h1{
+    width: 90%;
+    font-size: 8vh;
+    line-height: 1.3;
+    font-weight: 100;
+    color: #dadada69; 
+   
+}
+
+#page3{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
 }
